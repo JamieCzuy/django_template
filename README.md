@@ -14,4 +14,3 @@ Base Django 2 Project
 - /Pipfile
 - /Pipfile.lock
 - /README.md
-
