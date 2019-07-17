@@ -3,13 +3,14 @@ Base Django 2 Project
 
 ## Folder Structure
 
-/
-/docs
-  /how_to_build_template
-/tmp (not checked into git)
+- /docs
+  - /how_to_build_template
+- /tmp (not checked into git)
 
 ## Files
 
-/.gitignore
-/README.md
-
+- /.gitignore
+- /.python-version
+- /Pipfile
+- /Pipfile.lock
+- /README.md
