@@ -2,12 +2,12 @@
 
 From the root of the repo:
 
-1. Change to scr folder:
+1. Change to src folder:
 ```
 cd src
 ```
 
-2. Run django_admin to create Users app:
+2. Run manage.pyto create Users app:
 ```
 pipenv run python manage.py startapp users
 ```
@@ -63,11 +63,7 @@ LOCAL_APPS = [
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 ```
 
-
-
-
-
-4. Verify `manage.py` runs:
+5. Verify `manage.py` runs:
 ```
 pipenv run python manage.py
 ```
