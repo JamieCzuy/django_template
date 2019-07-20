@@ -12,13 +12,14 @@ You will need to have these installed in order to follow these steps:
 2. [Step #2 - Create a virtual environment](./step02_create_virtual_environment.md)
 3. [Step #3 - Install Django](./step03_install_django2.md)
 4. [Step #4 - Create Django Project](./step04_create_django_project.md)
-5. [Step #5 - Create Custom User and Users App](TBD)
+5. [Step #5 - Create Users App](./step05_create_users_appi.md)
+5. [Step #6 - Create Custom User Model](./step06_create_custom_user_model.md)
 ### v1.0 Release
-6. [Step #6 - Install Docker Postgres](TBD)
-7. [Step #7 - Switch to use (Dockered) Postgres](TBD)
+6. [Step # - Install Docker Postgres](TBD)
+7. [Step # - Switch to use (Dockered) Postgres](TBD)
 ### v1.1 Release
-8. [Step #8 - Install DRF (Django REST Framework](TBD)
-9. [Step #9 - Create API App](TBD)
+8. [Step # - Install DRF (Django REST Framework](TBD)
+9. [Step # - Create API App](TBD)
 ### v2.0 Release
 
 
