@@ -15,3 +15,5 @@ You will need to have these installed in order to follow these steps:
 5. [Step #5 - Create Users App](./step05_create_users_app.md)
 6. [Step #6 - Create Custom User Model](./step06_create_custom_user_model.md)
 7. [Step #7 - Update / fix doc files](./step07_update_fix_doc_files.md)
+8. [Step #8 - Make Database Migration(s)](./step08_make_database_migrations.md)
+
