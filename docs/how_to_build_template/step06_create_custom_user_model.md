@@ -3,24 +3,24 @@
 From the root of the repo:
 
 1. Change to src folder:
-```
+```bash
 cd src
 ```
 
 2. Create the User class in the users app's models
 Use your editor to create the User class in the users app's models:
 
-In `/users/models.py` lines 1 thru 3.
+In `./users/models.py` lines 1 thru 3.
 
 Change this:
-```
+```python
 from django.db import models
 
 # Create your models here.
 ```
 
 To this:
-```
+```python
 from django.contrib.auth.models import AbstractUser
 
 
@@ -30,15 +30,15 @@ class User(AbstractUser):
 
 4. Use your editor to make this user model the auth user model:
 
-In `/todo/settings.py` add this line below the ALLOWED_HOSTS line - after line 29.
-```
+In `./todo/settings.py` add this line below the ALLOWED_HOSTS line - after line 29.
+```python
 AUTH_USER_MODEL = "users.User"
 ```
 
 5. Use your editor to create User Create and User Change forms
 
-Create file `/users/forms.py` with this content:
-```
+Create file `./users/forms.py` with this content:
+```python
 from django.contrib.auth import forms
 from users.models import User
 
@@ -57,17 +57,17 @@ class UserCreationForm(forms.UserCreationForm):
 
 6. Use your editor to create a custom UserAdmin app
 
-Rewrite `/users/admin.py`
+Rewrite `./users/admin.py`
 
 Change this:
-```
+```python
 from django.contrib import admin
 
 # Register your models here.
 ```
 
 To this:
-```
+```python
 from django.contrib import admin
 from django.contrib import auth
 
@@ -84,7 +84,7 @@ class UserAdmin(auth.admin.UserAdmin):
 ```
 
 7. Verify `manage.py` runs
-```
+```bash
 pipenv run python manage.py
 ```
 

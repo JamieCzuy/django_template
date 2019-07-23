@@ -3,21 +3,21 @@
 From the root of the repo:
 
 1. Change to src folder:
-```
+```bash
 cd src
 ```
 
 2. Run manage.pyto create Users app:
-```
+```bash
 pipenv run python manage.py startapp users
 ```
 
 3. Verify these files were created:
-```
+```bash
 find users
 ```
 Should see:
-```
+```text
 users
 users/migrations
 users/migrations/__init__.py
@@ -34,7 +34,7 @@ users/views.py
 In `/todo/settings.py` lines 33 thru 40.
 
 Change this:
-```
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 ```
 To this:
-```
+```python
 DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -64,11 +64,11 @@ INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 ```
 
 5. Verify `manage.py` runs:
-```
+```bash
 pipenv run python manage.py
 ```
 Should see the following list of available commands
-```
+```text
 
 Type 'manage.py help <subcommand>' for help on a specific subcommand.
 
